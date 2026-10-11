@@ -1,0 +1,15 @@
+pandas
+polars
+pyarrow
+scikit-learn
+jupyter
+ydata-profiling
+matplotlib
+xgboost
+shap
+scipy
+statsmodels
+fairlearn
+XPER
+optuna
+tabpfn==9.0.0
