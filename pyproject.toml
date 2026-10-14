@@ -3,6 +3,7 @@ name = "happiness-in-your-household"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "catboost>=1.2.10",
     "fairlearn>=0.15.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.0",
