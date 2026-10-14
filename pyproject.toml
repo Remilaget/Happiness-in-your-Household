@@ -1,0 +1,28 @@
+[project]
+name = "happiness-in-your-household"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fairlearn>=0.15.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "optuna>=5.0.0",
+    "pandas>=2.3.3",
+    "polars>=2.0.0",
+    "pyarrow>=26.0.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.16.3",
+    "shap>=0.53.0",
+    "statsmodels>=0.15.0",
+    "tabpfn==9.0.0",
+    "xgboost>=3.4.1",
+    "xper>=0.0.92",
+    "ydata-profiling>=4.18.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "pytest>=9.1.1",
+    "ruff>=0.17.0",
+]

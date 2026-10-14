@@ -1,6 +1,12 @@
-# Data — the raw HMDA LAR extract is ~4.8 GB, far beyond GitHub limits.
-# Keep it local (or fetch it from the CFPB) and never commit it.
-data/
+# Data — course CSVs stay local and are never committed;
+# only the folder structure (.gitkeep) is tracked.
+data/*
+!data/raw/
+!data/processed/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 *.csv
 *.parquet
 *.feather
