@@ -1,0 +1,23 @@
+{
+  "logreg + signal1": {
+    "income": "raw",
+    "model__C": 10
+  },
+  "spline logreg": {
+    "model__C": 10,
+    "prep__spline__n_knots": 10
+  },
+  "spline logreg + zero flag": {
+    "model__C": 1,
+    "prep__spline__n_knots": 10
+  },
+  "xgboost": {
+    "eta": 0.060454114265558766,
+    "max_depth": 2,
+    "min_child_weight": 11.448727472018447,
+    "subsample": 0.7647058200707179,
+    "colsample_bytree": 0.9706554869741977,
+    "lambda": 0.9440944735045783,
+    "n_rounds": 230
+  }
+}

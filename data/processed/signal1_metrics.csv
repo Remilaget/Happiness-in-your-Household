@@ -1,0 +1,7 @@
+model,cv_log_loss,cv_std,log_loss,brier,auc
+xgboost,0.2908,0.0009,0.2903,0.0834,0.737
+spline logreg + zero flag,0.2909,0.001,0.2903,0.0833,0.7368
+spline logreg,0.2909,0.001,0.2905,0.0834,0.7361
+logreg + signal1,0.2935,0.0012,0.2943,0.0842,0.7289
+logreg (shared only),0.2958,0.0009,0.2971,0.0849,0.7168
+dummy (prior),0.3239,0.0001,0.3239,0.0896,0.5

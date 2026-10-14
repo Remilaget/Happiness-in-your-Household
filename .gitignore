@@ -1,17 +1,3 @@
-# Data — course CSVs stay local and are never committed;
-# only the folder structure (.gitkeep) is tracked.
-data/*
-!data/raw/
-!data/processed/
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-*.csv
-*.parquet
-*.feather
-*.h5
-*.hdf5
 *.pkl
 *.pickle
 *.joblib
