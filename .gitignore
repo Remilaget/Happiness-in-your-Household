@@ -1,6 +1,8 @@
 *.pkl
 *.pickle
 *.joblib
+# Exception: signal 3 model outputs (predictions, metrics, settings) are shared with the team
+!data/processed/signal3_*
 
 # Generated reports & temporary artifacts
 /reports/
