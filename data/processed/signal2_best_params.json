@@ -1,0 +1,28 @@
+{
+  "selected": "spline logreg",
+  "logreg": {
+    "model__C": 1
+  },
+  "spline logreg": {
+    "model__C": 10,
+    "prep__spline__n_knots": 10
+  },
+  "xgboost": {
+    "eta": 0.017476752399097042,
+    "max_depth": 2,
+    "min_child_weight": 1.0270096070719164,
+    "subsample": 0.5540657789000165,
+    "colsample_bytree": 0.9033065957181308,
+    "lambda": 0.1938242099818816,
+    "gamma": 0.430295380175297,
+    "n_rounds": 832
+  },
+  "catboost": {
+    "learning_rate": 0.010093006737080365,
+    "depth": 4,
+    "l2_leaf_reg": 0.04910060030157179,
+    "random_strength": 2.155465286584013,
+    "subsample": 0.9940697192199495,
+    "n_rounds": 1999
+  }
+}
